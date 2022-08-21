@@ -1,4 +1,5 @@
 /*BEGIN FightPad Pro Controller Styling edited for HFC*/
+/*Load over the https://gamepadviewer.com/?p=1&s=6 */
 .controller.fpp {
     background: url(https://raw.githubusercontent.com/Zychuu/HFC_GPV/main/HFC_V2.png) center no-repeat;
     height: 755px;
@@ -6,7 +7,7 @@
 }
 
 .fpp.disconnected {
-    background: url(fpp-assets/base-disconnect.svgz) no-repeat;
+    background: url(fpp-assets/base-disconnect.svg) no-repeat;
 }
 
 .fpp.disconnected div {
@@ -23,7 +24,7 @@
 .fpp .trigger {
     width: 96px;
     height: 104px;
-    background: url(fpp-assets/triggers.svgz_no) no-repeat;
+    background: url(fpp-assets/triggers.svg_no) no-repeat;
     opacity: 0;
 }
 
@@ -47,7 +48,7 @@
 .fpp .bumper {
     width: 221px;
     height: 75px;
-    background: url(fpp-assets/bumpers_no.svgz);
+    background: url(fpp-assets/bumpers_no.svg);
     opacity: 0;
 }
 
@@ -67,7 +68,7 @@
 .fpp .bumper.right:after {
     content: "";
     position: absolute;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(fpp-assets/buttons.svg) no-repeat;
     background-position: -280px 0px;
     width: 70px;
     height: 70px;
@@ -153,7 +154,7 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(fpp-assets/buttons.svg) no-repeat;
     background-position: -351px 0;
     right: -35px;
     top: 320px;
@@ -163,7 +164,7 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(fpp-assets/buttons.svg) no-repeat;
     opacity: 0;
 }
 
@@ -239,7 +240,7 @@
 }
 
 .fpp .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(xbox-assets/dpad.svg);
     position: absolute;
     opacity: 0;
 }
